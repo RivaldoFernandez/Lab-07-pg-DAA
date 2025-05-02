@@ -2,15 +2,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Lab_07_Roman_Qquelcca.DTOs;
 
+
 public class CreateProductDto
 {
     [Required]
-    public string Nombre { get; set; }
+    public string Name { get; set; }
 
     [Required]
-    public decimal Precio { get; set; }
+    public decimal? Price { get; set; }
 
-    public string? Descripcion { get; set; }
-
-    public int? CategoriaId { get; set; } // Opcional
+    public string? Description { get; set; }
 }

@@ -1,6 +1,6 @@
-using Newtonsoft.Json;
-
 namespace Lab_07_Roman_Qquelcca.Middleware;
+
+using Newtonsoft.Json;
 
 public class ErrorHandlingMiddleware
 {
